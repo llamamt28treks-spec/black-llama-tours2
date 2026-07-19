@@ -1,4 +1,4 @@
-import { buildTelLink, buildSmsLink, getPhoneNumber, getEmail } from '../lib/contactLinks';
+import { buildTelLink, getPhoneNumber, getEmail } from '../lib/contactLinks';
 
 export function mountFooter(container: HTMLElement): void {
   const footer = document.createElement('footer');
